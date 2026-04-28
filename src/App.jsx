@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Products from "./pages/Products";
 import Payment from "./pages/Payment";
 import Cart from "./pages/Cart";
+import Orders from "./pages/Orders";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/Products" element={<Products />} />
         <Route path="/payment" element={<Payment />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/orders" element={<Orders />} />
       </Routes>
     </BrowserRouter>
   );

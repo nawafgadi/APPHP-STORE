@@ -33,7 +33,7 @@ export default function Register() {
   localStorage.setItem("users", JSON.stringify(updatedUsers));
 
   alert("Register berhasil!");
-  navigate("/");
+  navigate("/Login");
 };
 
   return (

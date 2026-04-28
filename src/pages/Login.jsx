@@ -51,9 +51,7 @@ export default function Login() {
         <p>
           Belum punya akun? <Link to="/register">Register</Link>
         </p>
-        <p>
-         <a href="/forgot">Lupa Password?</a>
-        </p>
+        <Link to="/ForgotPassword">Lupa Password?</Link>
       </div>
     </div>
   );
